@@ -23,10 +23,6 @@
             <router-view />
 
         </v-content>
-
-        <v-footer app dark>
-            <span class="white--text">&copy; 2019</span>
-        </v-footer>
     </v-app>
 </template>
 
