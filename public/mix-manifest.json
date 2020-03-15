@@ -5,5 +5,5 @@
     "/dist/js/chunks/page-order.js": "/dist/js/chunks/page-order.js",
     "/dist/js/chunks/page-orders.js": "/dist/js/chunks/page-orders.js",
     "/dist/js/chunks/page-weather.js": "/dist/js/chunks/page-weather.js",
-    "/dist/js/chunks/vendors~page-orders.js": "/dist/js/chunks/vendors~page-orders.js"
+    "/dist/js/chunks/vendors~page-order~page-orders.js": "/dist/js/chunks/vendors~page-order~page-orders.js"
 }

@@ -14,6 +14,10 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
  */
 class Order extends Model
 {
+    protected $fillable = [
+        'status', 'partner_id', 'client_email',
+    ];
+
     public function products(): BelongsToMany
     {
         return $this->belongsToMany(Product::class, 'order_products')

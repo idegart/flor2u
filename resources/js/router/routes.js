@@ -16,6 +16,7 @@ export default [
             {
                 path: 'order/:id',
                 name: 'order',
+                props: true,
                 component: () => import(/* webpackChunkName: "page-order" */ '@page/Order')
             },
         ]
