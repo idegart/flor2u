@@ -1,12 +1,6 @@
 <template>
-    <v-container
-        class="fill-height"
-        fluid
-    >
-        <v-row
-            align="center"
-            justify="center"
-        >
+    <v-container class="fill-height" fluid>
+        <v-row align="center" justify="center">
             <v-col>
                 <v-card
                     class="mx-auto"
@@ -23,6 +17,7 @@
                                 <v-select
                                     v-model="city"
                                     :items="selectCities"
+                                    :disabled="loading"
                                     label="Город"
                                 ></v-select>
                             </v-list-item-title>
@@ -30,8 +25,7 @@
                     </v-list-item>
 
                     <v-card-text>
-                        <v-row align="center"
-                               justify="center">
+                        <v-row align="center" justify="center">
                             <v-col class="display-3 text-center">
                                 {{ temp }}&deg;C
                             </v-col>

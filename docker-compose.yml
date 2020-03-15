@@ -16,6 +16,7 @@ services:
       - local
     depends_on:
       - php
+      - db
 
   php:
     build:
@@ -28,3 +29,19 @@ services:
       - "9000:9000"
     networks:
       - local
+
+  db:
+    image: mysql:5.6
+    tty: true
+    ports:
+      - "3305:${DB_PORT}"
+    environment:
+      MYSQL_DATABASE: "${DB_DATABASE}"
+      MYSQL_USER: "${DB_USERNAME}"
+      MYSQL_PASSWORD: "${DB_PASSWORD}"
+      MYSQL_ROOT_PASSWORD: "${DB_PASSWORD}"
+    volumes:
+      - ./.docker/db:/var/lib/mysql/
+    networks:
+      - local
+

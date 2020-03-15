@@ -2,5 +2,8 @@
     "/dist/js/app.js": "/dist/js/app.js",
     "/dist/css/app.css": "/dist/css/app.css",
     "/dist/js/chunks/layout-app-base.js": "/dist/js/chunks/layout-app-base.js",
-    "/dist/js/chunks/page-weather.js": "/dist/js/chunks/page-weather.js"
+    "/dist/js/chunks/page-order.js": "/dist/js/chunks/page-order.js",
+    "/dist/js/chunks/page-orders.js": "/dist/js/chunks/page-orders.js",
+    "/dist/js/chunks/page-weather.js": "/dist/js/chunks/page-weather.js",
+    "/dist/js/chunks/vendors~page-orders.js": "/dist/js/chunks/vendors~page-orders.js"
 }

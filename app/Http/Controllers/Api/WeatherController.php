@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Api\Weather\IndexRequest;
 use App\Services\Weather\WeatherInterface;
-use App\Services\WeatherService;
 
 class WeatherController extends Controller
 {

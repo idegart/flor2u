@@ -39,6 +39,7 @@
 
             links: [
                 { title: 'Погода', icon: 'fas fa-cloud-sun', route: { name: 'weather' } },
+                { title: 'Заказы', icon: 'fas fa-boxes', route: { name: 'orders' } },
             ]
         }),
     }

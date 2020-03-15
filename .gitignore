@@ -3,6 +3,7 @@
 /public/storage
 /public/dist
 /public/fonts/vendor
+/public/mix-manifest.json
 /storage/*.key
 /vendor
 .env
@@ -14,3 +15,4 @@ npm-debug.log
 yarn-error.log
 _ide_helper.php
 .idea
+.docker/db
